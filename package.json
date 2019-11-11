@@ -1,6 +1,6 @@
 {
   "name": "@redturtle/eslint-config-react",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Shared eslint config for js projects that include react",
   "main": "index.js",
   "repository": "https://github.com/RedTurtle/eslint-config-react",
