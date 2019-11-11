@@ -1,0 +1,46 @@
+{
+  "name": "@redturtle/eslint-config-react",
+  "version": "1.0.0",
+  "description": "Shared eslint config for js projects that include react",
+  "main": "index.js",
+  "repository": "https://github.com/RedTurtle/eslint-config-react",
+  "author": "Piero Nicolli <piero.nicolli@redturtle.it>",
+  "license": "MIT",
+  "keywords": [
+    "eslint",
+    "prettier",
+    "redturtle",
+    "config",
+    "react"
+  ],
+  "peerDependencies": {
+    "babel-eslint": ">=8.0.2",
+    "eslint": ">=4.16.0",
+    "eslint-config-prettier": ">=2.9.0",
+    "eslint-plugin-import": ">=2.8.0",
+    "eslint-plugin-jsx-a11y": ">=6.2.3",
+    "eslint-plugin-prettier": ">=2.5.0",
+    "eslint-plugin-react": ">=7.16.0",
+    "eslint-plugin-react-hooks": ">=2.2.0",
+    "prettier": ">=1.10.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.6.0",
+    "eslint-config-prettier": "^6.5.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.16.0",
+    "eslint-plugin-react-hooks": "^2.2.0",
+    "prettier": "^1.19.1"
+  },
+  "scripts": {
+    "test": "yarn eslint",
+    "eslint": "eslint index.js",
+    "prettier:test": "prettier --list-different index.js"
+  },
+  "dependencies": {
+    "@redturtle/eslint-config": "^3.0.0"
+  }
+}
