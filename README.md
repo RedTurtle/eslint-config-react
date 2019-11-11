@@ -20,10 +20,10 @@ If you don't have those already, install peer dependencies:
 
 ```shell
 # Yarn
-$ yarn add --dev babel-eslint eslint eslint-config-prettier eslint-plugin-import eslint-plugin-prettier prettier
+$ yarn add --dev babel-eslint eslint eslint-config-prettier eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-prettier eslint-plugin-react eslint-plugin-react eslint-plugin-react-hooks prettier
 
 # Npm
-$ npm install --save-dev babel-eslint eslint eslint-config-prettier eslint-plugin-import eslint-plugin-prettier prettier
+$ npm install --save-dev babel-eslint eslint eslint-config-prettier eslint-plugin-import eslint-plugin-jsx-a11y eslint-plugin-prettier eslint-plugin-react eslint-plugin-react eslint-plugin-react-hooks prettier
 ```
 
 Extend this config in your `.eslintrc` file:
