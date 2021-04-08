@@ -1,7 +1,9 @@
-const base = require('@redturtle/eslint-config');
-
-module.exports = Object.assign({}, base, {
-  extends: [...base.extends, 'plugin:jsx-a11y/recommended'],
+module.exports = {
+  extends: [
+    '@redturtle/eslint-config',
+    'plugin:react/recommended',
+    'plugin:jsx-a11y/recommended',
+  ],
   parserOptions: {
     ecmaVersion: 2018,
     sourceType: 'module',
@@ -14,8 +16,8 @@ module.exports = Object.assign({}, base, {
       version: 'detect',
     },
   },
-  plugins: [...base.plugins, 'jsx-a11y', 'react', 'react-hooks'],
-  rules: Object.assign({}, base.rules, {
+  plugins: ['jsx-a11y', 'react', 'react-hooks'],
+  rules: {
     // https://github.com/facebook/create-react-app/blob/master/packages/eslint-config-react-app/index.js
     'react-hooks/exhaustive-deps': 'warn',
     // https://github.com/yannickcr/eslint-plugin-react/tree/master/docs/rules
@@ -72,5 +74,5 @@ module.exports = Object.assign({}, base, {
 
     // https://github.com/facebook/react/tree/master/packages/eslint-plugin-react-hooks
     'react-hooks/rules-of-hooks': 'error',
-  }),
-});
+  },
+};
