@@ -41,6 +41,6 @@
     "prettier:test": "prettier --list-different index.js"
   },
   "dependencies": {
-    "@redturtle/eslint-config": "^3.0.0"
+    "@redturtle/eslint-config": "^3.0.1"
   }
 }

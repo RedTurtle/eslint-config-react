@@ -96,10 +96,10 @@
     lodash "^4.17.13"
     to-fast-properties "^2.0.0"
 
-"@redturtle/eslint-config@^3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@redturtle/eslint-config/-/eslint-config-3.0.0.tgz#fdee7f6d3fd6a48adf6a1ceb796cdc2315c3340f"
-  integrity sha512-7t03G0TXvV8JQWdIkVPEVYbULzFaw/cGa8eP+PesBgr5dnaTTWC13MB+6wiXthB7ctLMTdd5GkOEcGlpO6xKAg==
+"@redturtle/eslint-config@^3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@redturtle/eslint-config/-/eslint-config-3.0.1.tgz#2065a60e651dffe545c05c5bbd01dd82944a3d57"
+  integrity sha512-82qcxTfs8n+Gkpkd2geN4vex3QQ+uOgI76vBplypbeIrrBV10J+a5sVFEeGSn7USqSqXMM+SxJi7oPH6eM/8dw==
 
 acorn-jsx@^5.1.0:
   version "5.1.0"
