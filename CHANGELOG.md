@@ -3,6 +3,7 @@
 ## 1.0.2 - (2021/04/08)
 
 - Upgraded @redturtle/eslint-config to 3.0.1 [pnicolli]
+- Fix syntax for extending base config [pnicolli]
 
 ## 1.0.1 - (2019/11/11)
 
